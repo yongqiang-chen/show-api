@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div id="tabbar">
     <mt-tabbar v-model="selected">
       <mt-tab-item v-for="nav in navs" :id="nav.id" :key="nav.id">
         <router-link
